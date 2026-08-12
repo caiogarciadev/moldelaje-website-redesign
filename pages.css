@@ -1,0 +1,18 @@
+@import url('style.css');
+
+body{padding-top:var(--offset)}
+.page-main{min-height:60vh}
+.page-hero{background:linear-gradient(120deg,rgba(0,24,48,.96),rgba(0,59,122,.84)),url('https://moldelaje.com.br/wp-content/uploads/2024/03/blocosdeconcreto2.jpg') center/cover;color:#fff;padding:clamp(64px,10vw,120px) var(--sp)}
+.page-hero .eyebrow{display:block;color:var(--yellow);font-size:12px;text-transform:uppercase;letter-spacing:.15em;font-weight:700;margin-bottom:12px}
+.page-hero h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(52px,8vw,106px);line-height:.88;letter-spacing:.02em;max-width:760px}
+.page-hero p{max-width:620px;margin-top:22px;color:rgba(255,255,255,.82);font-size:17px}
+.page-content{padding:var(--sec) var(--sp);max-width:1380px;margin:auto}
+.page-content h2{font-family:'Bebas Neue',sans-serif;font-size:clamp(38px,5vw,64px);line-height:.95;color:var(--blue);margin-bottom:18px}
+.page-content p{max-width:780px;margin-bottom:16px;color:var(--gray-mid)}
+.breadcrumb{font-size:13px;color:var(--gray-mid);padding:17px var(--sp);max-width:1380px;margin:auto}.breadcrumb a{color:var(--blue)}
+.product-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px;margin-top:42px}.product-link{border:1px solid #dfe7ef;border-radius:var(--r);padding:24px;background:#fff;color:var(--blue);font-weight:700;transition:.2s}.product-link:hover{background:var(--blue);border-color:var(--blue);color:#fff;transform:translateY(-3px)}
+.two-col{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(36px,8vw,100px);align-items:start}.info-panel{background:var(--blue-pale);border-left:5px solid var(--yellow);padding:30px;border-radius:0 var(--r) var(--r) 0}.info-panel h3{color:var(--blue);margin-bottom:12px}.info-panel a{color:var(--blue);font-weight:700}
+.portfolio-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:36px}.portfolio-card{background:var(--blue);color:#fff;padding:38px 26px;min-height:190px;border-radius:var(--r);display:flex;align-items:end;font-family:'Bebas Neue',sans-serif;font-size:30px;letter-spacing:.03em}.portfolio-card:nth-child(even){background:var(--blue-mid)}
+.links-list{display:grid;gap:12px;max-width:700px}.links-list a{padding:18px 20px;border:1px solid #dde5ed;border-radius:10px;color:var(--blue);font-weight:700}.links-list a:hover{background:var(--yellow-pale)}
+.contact-card{max-width:780px;background:#fff;border:1px solid #dfe7ef;border-radius:var(--r);padding:clamp(26px,5vw,52px);box-shadow:0 16px 45px rgba(0,59,122,.08)}
+@media(max-width:700px){.two-col{grid-template-columns:1fr}.portfolio-grid{grid-template-columns:1fr 1fr}.page-hero{padding-top:64px;padding-bottom:64px}}

@@ -19,7 +19,7 @@
   --white:      #FFFFFF;
 
   --topbar-h:  36px;
-  --nav-h:     72px;
+  --nav-h:     80px;
   --offset:    calc(var(--topbar-h) + var(--nav-h));
   --sp:        clamp(24px, 7vw, 100px);   /* side padding */
   --sec:       clamp(64px, 10vw, 120px);  /* section vertical padding */
@@ -542,7 +542,8 @@ nav.nav-scrolled .nav-hamburger span{background:var(--blue)}
 .form-field input,.form-field select,.form-field textarea{
   background:var(--blue-pale);border:1.5px solid transparent;border-radius:10px;
   padding:12px 16px;font-family:'DM Sans',sans-serif;font-size:15px;color:var(--gray-dark);
-  outline:none;transition:border-color .2s,background .2s;resize:none;width:100%;-webkit-appearance:none;
+  outline:none;transition:border-color .2s,background .2s;resize:none;width:100%;appearance:none;
+-webkit-appearance:none;
 }
 .form-field input:focus,.form-field select:focus,.form-field textarea:focus{border-color:var(--blue);background:white}
 .form-submit{
@@ -633,7 +634,7 @@ footer{background:var(--blue);color:white;padding:64px var(--sp) 36px}
    RESPONSIVE — md (max 900px)
 ══════════════════════════════════════════════ */
 @media(max-width:900px){
-  :root{--nav-h:64px}
+  :root{--nav-h:70px}
 
   .nav-links{display:none}
   .nav-hamburger{display:flex}
