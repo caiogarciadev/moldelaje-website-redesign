@@ -77,7 +77,7 @@ The redesign focused on:
 
 ## Live Preview
 
-[View Live Website](https://your-vercel-link.vercel.app)
+[View Live Website](https://caiogarciadev.github.io/moldelaje-website-redesign/)
 
 ---
 
