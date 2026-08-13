@@ -19,7 +19,7 @@
   --white:      #FFFFFF;
 
   --topbar-h:  36px;
-  --nav-h:     80px;
+  --nav-h:     90px;
   --offset:    calc(var(--topbar-h) + var(--nav-h));
   --sp:        clamp(24px, 7vw, 100px);   /* side padding */
   --sec:       clamp(64px, 10vw, 120px);  /* section vertical padding */
@@ -95,11 +95,11 @@ nav.nav-transparent .nav-hamburger span,
 nav.nav-scrolled .nav-hamburger span{background:var(--blue)}
 
 .nav-logo{display:flex;align-items:center;flex-shrink:0}
-.nav-logo img{height:60px;width:auto;display:block;object-fit:contain}
+.nav-logo img{height:68px;width:auto;display:block;object-fit:contain}
 
-.nav-links{display:flex;align-items:center;gap:30px}
+.nav-links{display:flex;align-items:center;gap:32px}
 .nav-links a{
-  font-size:14px;font-weight:500;letter-spacing:.02em;
+  font-size:15px;font-weight:500;letter-spacing:.02em;
   position:relative;transition:color .25s;
 }
 .nav-links a::after{
@@ -639,7 +639,7 @@ footer{background:var(--blue);color:white;padding:64px var(--sp) 36px}
    RESPONSIVE — md (max 900px)
 ══════════════════════════════════════════════ */
 @media(max-width:900px){
-  :root{--nav-h:70px}
+  :root{--nav-h:76px}
 
   .nav-links{display:none}
   .nav-hamburger{display:flex}
@@ -674,7 +674,7 @@ footer{background:var(--blue);color:white;padding:64px var(--sp) 36px}
   .topbar-sep{display:none}
   .topbar-item:nth-child(3){display:none}
 
-  .nav-logo svg{height:38px}
+  .nav-logo img{height:54px}
   .hero-left{padding:36px var(--sp) 44px}
   .hero-seals{gap:7px}
   .hero-seal{font-size:10px;padding:4px 10px}
